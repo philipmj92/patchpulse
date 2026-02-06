@@ -1,0 +1,114 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PatchPulse — WordPress Security Digest (2026-02-03)</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; margin:0; background:#0b1020; color:#f3f4f6;}
+.wrap{max-width:900px;margin:0 auto;padding:28px 18px 40px;}
+.card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:14px;padding:16px;margin:12px 0;}
+small{color:rgba(255,255,255,0.7)}
+a{color:#7c5cff}
+.badge{display:inline-block; font-size:12px; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,0.22); margin-left:8px; color:rgba(255,255,255,0.86)}
+</style>
+</head><body><div class="wrap">
+<h1 style="margin:0 0 6px">PatchPulse — WordPress Security Digest (2026-02-03)</h1>
+<small>Source: NVD keywordSearch=wordpress (+ CISA KEV boost). This is an MVP build; expect iterative improvements.</small>
+
+<div class="card">
+  <div style="font-weight:700">CVE-2026-1056
+    
+    <span class="badge">CVSS 9.8</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Snow Monkey Forms plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the &#039;generate_user_dirpath&#039; function in all versions up to, and including, 12.0.3. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote cod…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-1056">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2025-15030
+    
+    <span class="badge">CVSS 9.8</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The User Profile Builder  WordPress plugin before 3.15.2 does not have a proper password reset process, allowing a few unauthenticated requests to reset the password of any user by knowing their username, such as administrator ones, and therefore gain access to their account</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-15030">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-0702
+    
+    <span class="badge">CVSS 7.5</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The VidShop – Shoppable Videos for WooCommerce plugin for WordPress is vulnerable to time-based SQL Injection via the &#039;fields&#039; parameter in all versions up to, and including, 1.1.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenti…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0702">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-0844
+    
+    <span class="badge">CVSS 8.8</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Simple User Registration plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 6.7 due to insufficient restriction on the &#039;profile_save_field&#039; function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the &#039;w…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0844">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-1280
+    
+    <span class="badge">CVSS 7.5</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Frontend File Manager Plugin for WordPress is vulnerable to unauthorized file sharing due to a missing capability check on the &#039;wpfm_send_file_in_email&#039; AJAX action in all versions up to, and including, 23.5. This makes it possible for unauthenticated attackers to share arbitrary uploaded files via email by supplying a file ID. Since …</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-1280">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-0832
+    
+    <span class="badge">CVSS 7.3</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The New User Approve plugin for WordPress is vulnerable to unauthorized access of data and modification of data due to a missing capability check on multiple REST API endpoints in all versions up to, and including, 3.2.2. This makes it possible for unauthenticated attackers to approve or deny user accounts, retrieve sensitive user informa…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0832">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-1400
+    
+    <span class="badge">CVSS 7.2</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The AI Engine – The Chatbot and AI Framework for WordPress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the `rest_helpers_update_media_metadata` function in all versions up to, and including, 3.3.2. This makes it possible for authenticated attackers, with Editor-level access and above…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-1400">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2025-14975
+    
+    <span class="badge">CVSS 8.1</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Custom Login Page Customizer WordPress plugin before 2.5.4 does not have a proper password reset process, allowing a few unauthenticated requests to reset the password of any user by knowing their username, such as administrator ones, and therefore gain access to their account</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-14975">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2025-14386
+    
+    <span class="badge">CVSS 8.8</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Search Atlas SEO – Premier SEO Plugin for One-Click WP Publishing &amp; Integrated AI Optimization plugin for WordPress is vulnerable to authentication bypass due to a missing capability check on the &#039;generate_sso_url&#039; and &#039;validate_sso_token&#039; functions in versions 2.4.4 to 2.5.12. This makes it possible for authenticated attackers, with …</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-14386">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2022-50797
+    
+    <span class="badge">CVSS 6.4</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">Stripe Green Downloads Wordpress Plugin 2.03 contains a persistent cross-site scripting vulnerability allowing remote attackers to inject malicious scripts in button label fields. Attackers can exploit input parameters to execute arbitrary scripts, potentially leading to session hijacking and application module manipulation.</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-50797">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2025-14554
+    
+    <span class="badge">CVSS 7.2</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The Sell BTC - Cryptocurrency Selling Calculator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#039;orderform_data&#039; AJAX action in all versions up to, and including, 1.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts i…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-14554">NVD</a></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">CVE-2026-0683
+    
+    <span class="badge">CVSS 6.5</span>
+  </div>
+  <div style="margin-top:8px; color:rgba(255,255,255,0.82)">The SupportCandy – Helpdesk &amp; Customer Support Ticket System plugin for WordPress is vulnerable to SQL Injection via the Number-type custom field filter in all versions up to, and including, 3.4.4. This is due to insufficient escaping on the user-supplied operand value when using the equals operator and lack of sufficient preparation on t…</div>
+  <div style="margin-top:10px"><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0683">NVD</a></div>
+</div>
+
+<div class="card"><small>Tip: If you manage client sites, prioritize KEV + high-CVSS items first, then check if any affected plugin/theme matches your fleet.</small></div>
+</div></body></html>
